@@ -14,15 +14,16 @@ namespace Kolokwium2
             NazwaKlasy = nazwaKlasy;
             Kod = kod;
         }
+
         public object Clone()
         {
+            throw new NotImplementedException();
         }
     }
     static class ProjectExtensionMethod
     {
         public static void NowaWersja(this List<Projekt> projekty, string kod, int[] nrWersji)
         {
-            projekty.Add()
         }
     }
 }
